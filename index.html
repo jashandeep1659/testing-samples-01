@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,9 +31,13 @@
                 <li class="menu-link"><a href="">About</a></li>
                 <li>
                     Theme:
-                    <select name="" id="">
-                        <option value="">Light Theme</option>
-                        <option value="">Dark Theme</option>
+                    <select name="" id="themechanger">
+                        <option value="light" class="light_button">
+                            Light Theme
+                        </option>
+                        <option value="dark" class="dark_button">
+                            Dark Theme
+                        </option>
                     </select>
                 </li>
                 <li class="search">
@@ -46,7 +50,20 @@
                 </li>
             </ul>
         </section>
-        <main></main>
+        <main>
+            <section id="video-part">
+                <h2>MoonChild Era (Full Album) Diljit Dosans</h2>
+                <p><small>Date: Jan-2021</small></p>
+                <div class="video">
+                    <video controls controlsList=" nodownload">
+                        <source
+                            src="./assets/videos/pexels-diva-plavalaguna-5664462.mp4"
+                            type="video/mp4"
+                        />
+                    </video>
+                </div>
+            </section>
+        </main>
         <script src="./assets/main.js"></script>
     </body>
 </html>
